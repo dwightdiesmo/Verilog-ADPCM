@@ -1,0 +1,304 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Dec 12 20:41:22 2021
+# Process ID: 22196
+# Current directory: C:/Users/dwigh/Xilinx/ADPCM/ADPCM.runs/synth_1
+# Command line: vivado.exe -log ADPCM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ADPCM.tcl
+# Log file: C:/Users/dwigh/Xilinx/ADPCM/ADPCM.runs/synth_1/ADPCM.vds
+# Journal file: C:/Users/dwigh/Xilinx/ADPCM/ADPCM.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ADPCM.tcl -notrace
+Command: synth_design -top ADPCM -part xa7a12tcpg238-2I
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xa7a12t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xa7a12t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 12616
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1126.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ADPCM' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/ADPCM.v:23]
+	Parameter WLI bound to: 1 - type: integer 
+	Parameter WLF bound to: 15 - type: integer 
+	Parameter WL bound to: 16 - type: integer 
+	Parameter W_sel bound to: 2 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'ADDER_FIXED_POINT' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/ADDER_FIXED_POINT.v:24]
+	Parameter WI1 bound to: 1 - type: integer 
+	Parameter WF1 bound to: 15 - type: integer 
+	Parameter WI2 bound to: 1 - type: integer 
+	Parameter WF2 bound to: 15 - type: integer 
+	Parameter WIO bound to: 1 - type: integer 
+	Parameter WFO bound to: 15 - type: integer 
+	Parameter W1 bound to: 16 - type: integer 
+	Parameter W2 bound to: 16 - type: integer 
+	Parameter WO bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ADDER_FIXED_POINT' (1#1) [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/ADDER_FIXED_POINT.v:24]
+WARNING: [Synth 8-7071] port 'RST' of module 'ADDER_FIXED_POINT' is unconnected for instance 'SUB' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/ADPCM.v:33]
+WARNING: [Synth 8-7071] port 'OVF' of module 'ADDER_FIXED_POINT' is unconnected for instance 'SUB' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/ADPCM.v:33]
+WARNING: [Synth 8-7023] instance 'SUB' of module 'ADDER_FIXED_POINT' has 5 connections declared, but only 3 given [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/ADPCM.v:33]
+INFO: [Synth 8-6157] synthesizing module 'BIT_QUANTIZER' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/BIT_QUANTIZER.v:21]
+	Parameter WLI bound to: 1 - type: integer 
+	Parameter WLF bound to: 15 - type: integer 
+	Parameter WL bound to: 16 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'DELTA' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DELTA.v:49]
+	Parameter WLI bound to: 1 - type: integer 
+	Parameter WLF bound to: 15 - type: integer 
+	Parameter WL bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DELTA' (2#1) [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DELTA.v:49]
+INFO: [Synth 8-6157] synthesizing module 'CODEWORD' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/CODEWORD.v:21]
+	Parameter WL bound to: 16 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'TWOS_COMPLEMENT' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/TWOS_COMPLEMENT.v:30]
+	Parameter WL bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'TWOS_COMPLEMENT' (3#1) [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/TWOS_COMPLEMENT.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'CODEWORD' (4#1) [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/CODEWORD.v:21]
+INFO: [Synth 8-6157] synthesizing module 'CODESIGN' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/CODESIGN.v:22]
+	Parameter WL bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'CODESIGN' (5#1) [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/CODESIGN.v:22]
+INFO: [Synth 8-6157] synthesizing module 'DQ' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DQ.v:21]
+	Parameter WLI bound to: 1 - type: integer 
+	Parameter WLF bound to: 15 - type: integer 
+	Parameter WL bound to: 16 - type: integer 
+WARNING: [Synth 8-7071] port 'RST' of module 'ADDER_FIXED_POINT' is unconnected for instance 'ADD_DELTA' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DQ.v:28]
+WARNING: [Synth 8-7071] port 'OVF' of module 'ADDER_FIXED_POINT' is unconnected for instance 'ADD_DELTA' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DQ.v:28]
+WARNING: [Synth 8-7023] instance 'ADD_DELTA' of module 'ADDER_FIXED_POINT' has 5 connections declared, but only 3 given [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DQ.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'DQ' (6#1) [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DQ.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'BIT_QUANTIZER' (7#1) [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/BIT_QUANTIZER.v:21]
+INFO: [Synth 8-6157] synthesizing module 'TWOS_COMPLEMENT_ONLY' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/TWOS_COMPLEMENT.v:21]
+	Parameter WL bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'TWOS_COMPLEMENT_ONLY' (8#1) [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/TWOS_COMPLEMENT.v:21]
+INFO: [Synth 8-6157] synthesizing module 'MUX_2' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/MUX_2.v:23]
+	Parameter WL bound to: 16 - type: integer 
+	Parameter WL_sel bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'MUX_2' (9#1) [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/MUX_2.v:23]
+WARNING: [Synth 8-7071] port 'RST' of module 'ADDER_FIXED_POINT' is unconnected for instance 'ADDER' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/ADPCM.v:37]
+WARNING: [Synth 8-7071] port 'OVF' of module 'ADDER_FIXED_POINT' is unconnected for instance 'ADDER' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/ADPCM.v:37]
+WARNING: [Synth 8-7023] instance 'ADDER' of module 'ADDER_FIXED_POINT' has 5 connections declared, but only 3 given [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/ADPCM.v:37]
+INFO: [Synth 8-6157] synthesizing module 'DFF' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:21]
+	Parameter WI bound to: 1 - type: integer 
+	Parameter WF bound to: 15 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DFF' (10#1) [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'ADPCM' (11#1) [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/ADPCM.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1126.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1126.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xa7a12tcpg238-2I
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1126.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xa7a12tcpg238-2I
+WARNING: [Synth 8-327] inferring latch for variable 'deltaUnclipped_reg' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DELTA.v:61]
+WARNING: [Synth 8-327] inferring latch for variable 'dq_reg' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DQ.v:32]
+WARNING: [Synth 8-327] inferring latch for variable 'Q_reg' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:40]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1126.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   17 Bit       Adders := 3     
+	   2 Input   16 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 40 (col length:40)
+BRAMs: 40 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1126.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1126.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1126.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1126.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1126.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[15] with 1st driver pin 'DFF/Q_reg[15]__0/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[15] with 2nd driver pin 'DFF/Q_reg[15]/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:40]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[14] with 1st driver pin 'DFF/Q_reg[14]__0/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[14] with 2nd driver pin 'DFF/Q_reg[14]/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:40]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[13] with 1st driver pin 'DFF/Q_reg[13]__0/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[13] with 2nd driver pin 'DFF/Q_reg[13]/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:40]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[12] with 1st driver pin 'DFF/Q_reg[12]__0/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[12] with 2nd driver pin 'DFF/Q_reg[12]/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:40]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[11] with 1st driver pin 'DFF/Q_reg[11]__0/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[11] with 2nd driver pin 'DFF/Q_reg[11]/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:40]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[10] with 1st driver pin 'DFF/Q_reg[10]__0/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[10] with 2nd driver pin 'DFF/Q_reg[10]/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:40]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[9] with 1st driver pin 'DFF/Q_reg[9]__0/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[9] with 2nd driver pin 'DFF/Q_reg[9]/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:40]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[8] with 1st driver pin 'DFF/Q_reg[8]__0/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[8] with 2nd driver pin 'DFF/Q_reg[8]/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:40]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[7] with 1st driver pin 'DFF/Q_reg[7]__0/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[7] with 2nd driver pin 'DFF/Q_reg[7]/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:40]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[6] with 1st driver pin 'DFF/Q_reg[6]__0/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[6] with 2nd driver pin 'DFF/Q_reg[6]/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:40]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[5] with 1st driver pin 'DFF/Q_reg[5]__0/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[5] with 2nd driver pin 'DFF/Q_reg[5]/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:40]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[4] with 1st driver pin 'DFF/Q_reg[4]__0/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[4] with 2nd driver pin 'DFF/Q_reg[4]/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:40]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[3] with 1st driver pin 'DFF/Q_reg[3]__0/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[3] with 2nd driver pin 'DFF/Q_reg[3]/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:40]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[2] with 1st driver pin 'DFF/Q_reg[2]__0/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[2] with 2nd driver pin 'DFF/Q_reg[2]/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:40]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[1] with 1st driver pin 'DFF/Q_reg[1]__0/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[1] with 2nd driver pin 'DFF/Q_reg[1]/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:40]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[0] with 1st driver pin 'DFF/Q_reg[0]__0/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin xr[0] with 2nd driver pin 'DFF/Q_reg[0]/Q' [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v:40]
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|       16|Failed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1126.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1126.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1126.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1126.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    26|
+|3     |LUT1   |    32|
+|4     |LUT2   |    32|
+|5     |LUT3   |    24|
+|6     |LUT4   |    11|
+|7     |LUT5   |     9|
+|8     |LUT6   |    41|
+|9     |FDCE   |    15|
+|10    |FDPE   |     1|
+|11    |FDRE   |    16|
+|12    |LD     |    16|
+|13    |IBUF   |    19|
+|14    |OBUF   |     3|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------+---------------------+------+
+|      |Instance          |Module               |Cells |
++------+------------------+---------------------+------+
+|1     |top               |                     |   247|
+|2     |  ADDER           |ADDER_FIXED_POINT    |     9|
+|3     |  DFF             |DFF                  |    32|
+|4     |  DQ_TC           |TWOS_COMPLEMENT_ONLY |     4|
+|5     |  QUANTIZER       |BIT_QUANTIZER        |    74|
+|6     |    CODEWORD_CALC |CODEWORD             |     2|
+|7     |    DELTA_CALC    |DELTA                |    56|
+|8     |    DQ_CALC       |DQ                   |    16|
+|9     |      ADD_DELTA   |ADDER_FIXED_POINT_1  |    16|
+|10    |  SUB             |ADDER_FIXED_POINT_0  |   104|
++------+------------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1126.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 32 critical warnings and 12 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1126.023 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1126.023 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1126.023 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 42 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1190.832 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  LD => LDCE: 16 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+34 Infos, 12 Warnings, 32 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1190.832 ; gain = 64.809
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/dwigh/Xilinx/ADPCM/ADPCM.runs/synth_1/ADPCM.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ADPCM_utilization_synth.rpt -pb ADPCM_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 12 20:42:03 2021...

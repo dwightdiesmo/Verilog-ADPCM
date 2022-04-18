@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Dec 12 20:41:22 2021
+# Process ID: 22196
+# Current directory: C:/Users/dwigh/Xilinx/ADPCM/ADPCM.runs/synth_1
+# Command line: vivado.exe -log ADPCM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ADPCM.tcl
+# Log file: C:/Users/dwigh/Xilinx/ADPCM/ADPCM.runs/synth_1/ADPCM.vds
+# Journal file: C:/Users/dwigh/Xilinx/ADPCM/ADPCM.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ADPCM.tcl -notrace

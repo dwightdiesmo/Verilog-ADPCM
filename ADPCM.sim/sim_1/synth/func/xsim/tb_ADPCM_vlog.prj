@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tb_ADPCM_func_synth.v" \
+"../../../../../ADPCM.srcs/sim_1/new/tb_ADPCM.v" \
+
+# Do not sort compile order
+nosort

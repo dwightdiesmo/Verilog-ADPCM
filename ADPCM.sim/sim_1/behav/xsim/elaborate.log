@@ -1,0 +1,27 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto abefcbe3badf4013bc76547e1213e4f4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_ADPCM_behav xil_defaultlib.tb_ADPCM xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'RST' is not connected on this instance [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/ADPCM.v:33]
+WARNING: [VRFC 10-5021] port 'RST' is not connected on this instance [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/ADPCM.v:37]
+WARNING: [VRFC 10-5021] port 'RST' is not connected on this instance [C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DQ.v:28]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ADDER_FIXED_POINT(WI1=1,WF1=15,W...
+Compiling module xil_defaultlib.DELTA_default
+Compiling module xil_defaultlib.TWOS_COMPLEMENT(WL=16)
+Compiling module xil_defaultlib.CODEWORD
+Compiling module xil_defaultlib.CODESIGN
+Compiling module xil_defaultlib.DQ_default
+Compiling module xil_defaultlib.BIT_QUANTIZER_default
+Compiling module xil_defaultlib.TWOS_COMPLEMENT_ONLY(WL=16)
+Compiling module xil_defaultlib.MUX_2(WL=16)
+Compiling module xil_defaultlib.DFF(WI=1,WF=15)
+Compiling module xil_defaultlib.ADPCM_default
+Compiling module xil_defaultlib.tb_ADPCM
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_ADPCM_behav

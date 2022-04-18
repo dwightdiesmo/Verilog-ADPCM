@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dwigh/Xilinx/ADPCM/ADPCM.sim/sim_1/synth/func/xsim/tb_ADPCM_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADDER_FIXED_POINT
+INFO: [VRFC 10-311] analyzing module ADDER_FIXED_POINT_0
+INFO: [VRFC 10-311] analyzing module ADDER_FIXED_POINT_1
+INFO: [VRFC 10-311] analyzing module ADPCM
+INFO: [VRFC 10-311] analyzing module BIT_QUANTIZER
+INFO: [VRFC 10-311] analyzing module CODEWORD
+INFO: [VRFC 10-311] analyzing module DELTA
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-311] analyzing module DQ
+INFO: [VRFC 10-311] analyzing module TWOS_COMPLEMENT_ONLY
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sim_1/new/tb_ADPCM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ADPCM

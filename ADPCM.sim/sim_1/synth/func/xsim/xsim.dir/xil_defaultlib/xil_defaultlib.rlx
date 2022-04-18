@@ -1,0 +1,6 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/dwigh/Xilinx/ADPCM/ADPCM.sim/sim_1/synth/func/xsim/tb_ADPCM_func_synth.v,1639371104,verilog,,C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sim_1/new/tb_ADPCM.v,,ADDER_FIXED_POINT;ADDER_FIXED_POINT_0;ADDER_FIXED_POINT_1;ADPCM;BIT_QUANTIZER;CODEWORD;DELTA;DFF;DQ;TWOS_COMPLEMENT_ONLY;glbl,,,,,,,,
+C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sim_1/new/tb_ADPCM.v,1639353196,verilog,,,,tb_ADPCM,,,,,,,,

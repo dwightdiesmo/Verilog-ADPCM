@@ -1,0 +1,17 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/dwigh/Xilinx/ADPCM/ADPCM.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sim_1/new/tb_ADPCM.v,1639591698,verilog,,,,tb_ADPCM,,,,,,,,
+C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/ADDER_FIXED_POINT.v,1639342367,verilog,,C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/ADPCM.v,,ADDER_FIXED_POINT,,,,,,,,
+C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/ADPCM.v,1639346180,verilog,,C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/BIT_QUANTIZER.v,,ADPCM,,,,,,,,
+C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/BIT_QUANTIZER.v,1639341878,verilog,,C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/CODESIGN.v,,BIT_QUANTIZER,,,,,,,,
+C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/CODESIGN.v,1639342714,verilog,,C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/CODEWORD.v,,CODESIGN,,,,,,,,
+C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/CODEWORD.v,1639349650,verilog,,C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DELTA.v,,CODEWORD,,,,,,,,
+C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DELTA.v,1639344306,verilog,,C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v,,DELTA,,,,,,,,
+C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DELTA_PLUS.v,1639266892,verilog,,C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v,,DELTA_PLUS,,,,,,,,
+C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DFF.v,1639370163,verilog,,C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DQ.v,,DFF,,,,,,,,
+C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/DQ.v,1639343394,verilog,,C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/MUX_2.v,,DQ,,,,,,,,
+C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/MUX_2.v,1639345200,verilog,,C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/TWOS_COMPLEMENT.v,,MUX_2,,,,,,,,
+C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sources_1/new/TWOS_COMPLEMENT.v,1639342844,verilog,,C:/Users/dwigh/Xilinx/ADPCM/ADPCM.srcs/sim_1/new/tb_ADPCM.v,,TWOS_COMPLEMENT;TWOS_COMPLEMENT_ONLY,,,,,,,,

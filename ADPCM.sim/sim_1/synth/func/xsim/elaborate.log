@@ -1,0 +1,41 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto abefcbe3badf4013bc76547e1213e4f4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot tb_ADPCM_func_synth xil_defaultlib.tb_ADPCM xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.CARRY4
+Compiling module xil_defaultlib.ADDER_FIXED_POINT
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.latchsre_ldce
+Compiling module unisims_ver.LDCE
+Compiling module unisims_ver.FDRE_default
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.TWOS_COMPLEMENT_ONLY
+Compiling module xil_defaultlib.CODEWORD
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.FDCE_default
+Compiling module unisims_ver.FDPE_default
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module xil_defaultlib.DELTA
+Compiling module xil_defaultlib.ADDER_FIXED_POINT_1
+Compiling module xil_defaultlib.DQ
+Compiling module xil_defaultlib.BIT_QUANTIZER
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module xil_defaultlib.ADDER_FIXED_POINT_0
+Compiling module unisims_ver.OBUF
+Compiling module xil_defaultlib.ADPCM
+Compiling module xil_defaultlib.tb_ADPCM
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_ADPCM_func_synth
